@@ -1,0 +1,168 @@
+/*
+font-family: 'Gochi Hand', cursive;
+font-family: 'Shrikhand', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1.2rem;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: inherit;
+}
+/*nav episode*/
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav li a{
+    color:#d4cfcf;
+    margin: 200px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #a6b45c; ;
+}
+
+
+/*header episode*/
+
+.header{
+    background-color:#023535 ;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.header h1{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2rem;
+    color: #d4cfcf;
+    text-shadow: 2px 2px 2px #a6b45c; ;
+}
+
+.pizza-order{
+    background-color: #23606E;
+    margin:3rem auto 0;
+    padding: 2rem;
+    width: 42.5rem;
+    border-radius: 0.7rem;
+}
+
+.pizza-order form{
+    background-color: #FACFCE;
+    padding: 2rem;
+    border-radius: 0.7rem;
+}
+
+.pizza-order h1{
+    color:#023535;
+    text-align: center;
+}
+
+.pizza-select{
+    display: block;
+    font-size: 0;
+    width: 100%;
+}
+
+.pizza-select .pizza-type{
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 33.333%;
+    margin: 10px 0;
+}
+
+.pizza-select .pizza-type label,
+.pizza-select .pizza-type button {
+    display: block;
+}
+
+/*Buton*/
+
+button[role="button"] {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button[role="button"]:hover{
+    background-color: rgb(7, 241, 7);
+    color: black;
+}
+
+button[role="button"]:focus{
+    outline: 0;
+    background-color: #0fa0e4;
+    color: #023535;
+}
+
+button[type="submit"]{
+    background-color: #023535;
+    color: whitesmoke;
+    border: 2px solid #023535;
+    font-weight: 400;
+    padding: 0.5rem;
+    width: 45%;
+}
+
+/*Material*/
+
+.select-material{
+    text-align: center;
+}
+
+.select-material label {
+    border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.select-material label:hover{
+    background-color: #023535;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.select-material input[name="material"]{
+    display: none;
+}
+.select-material input[name="material"]:checked + label {
+    background-color: #1b4d5a;
+    color: #e2d9cf;
+  }
+
+
+.select-material .select-material-pizza {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+/*Pizza Boyut*/
+
+.select-material input[name="material2"]{
+    display: none;
+}
+.select-material input[name="material2"]:checked + label {
+    background-color: #1b4d5a;
+    color: #e2d9cf;
+}
+
+/*Hamur Kalınlığı*/
+
+.select-material input[name="material3"]{
+    display: none;
+}
+.select-material input[name="material3"]:checked + label {
+    background-color: #1b4d5a;
+    color: #e2d9cf;
+}
